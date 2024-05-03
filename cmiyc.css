@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(31, 31, 33);
+}
+
+#box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 30px;
+    width: 30px;
+    transform: translate(-50%, -50%);
+    background-color: red;
+}
+#wlcm{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 40%;
+}
+#wc{
+    align-items: center;
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: honeydew;
+}
+#tt{
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: honeydew;
+}
+#bt{
+    border-radius: 10px;
+    font-family: Geneva;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 70px;
+}
