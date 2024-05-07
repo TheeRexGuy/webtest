@@ -18,7 +18,66 @@ body{
     background-color: blue;
 }
 #box:hover{
-    opacity: 50%;
+    background-color: rgb(233, 35, 62);
+}
+#hit{
+    pointer-events: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    transform: translate(-50%, -50%);
+}
+#hit.booms{
+    animation: boomin 0.3s steps(7) forwards;
+}
+@keyframes boomin{
+    0%{
+        background: url(Media/Boom/boom_1.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    14.29% {
+        background: url(Media/Boom/boom_2.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      28.57% {
+        background: url(Media/Boom/boom_3.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      42.86% {
+        background: url(Media/Boom/boom_4.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      57.14% {
+        background: url(Media/Boom/boom_5.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      71.43% {
+        background: url(Media/Boom/boom_6.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      85.71% {
+        background: url(Media/Boom/boom_7.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      100% {
+        background: none;
+      }
 }
 #wndo{
     cursor: pointer;
@@ -37,18 +96,20 @@ body{
     opacity: 40%;
 }
 #wc{
+    pointer-events: none;
     text-align: center;
-    position: relative;
-    top: 400px;
+    position: fixed;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: honeydew;
 }
 #tt{
+    pointer-events: none;
     text-align: center;
     font-size: 100px;
-    position: relative;
-    top: 400px;
+    position: fixed;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: honeydew;
@@ -57,7 +118,7 @@ body{
     font-size: large;
     border-radius: 10px;
     font-family: Geneva;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
