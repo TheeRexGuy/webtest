@@ -99,7 +99,8 @@ body{
     pointer-events: none;
     text-align: center;
     position: fixed;
-    top: 40%;
+    font-size: 2vw;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: honeydew;
@@ -107,23 +108,23 @@ body{
 #tt{
     pointer-events: none;
     text-align: center;
-    font-size: 100px;
+    font-size: 6vw;
     position: fixed;
-    top: 50%;
+    top: 51%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: honeydew;
 }
 #bt{
-    font-size: large;
-    border-radius: 10px;
+    font-size: 1.3vw;
+    border-radius: 1vw;
     font-family: Geneva;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 30px;
-    width: 70px;
+    height: 2vw;
+    width: 5vw;
 }
 #bt:hover{
     opacity: 50%;
@@ -132,30 +133,30 @@ body{
     cursor: pointer;
     background-color: rgb(31, 35, 39);
     position: fixed;
-    height: 7%;
+    height: 4vw;
     width: 100%;
 }
 #sc{
     color: azure;
-    position: absolute;
-    font-size: 50px;
-    top: 5%;
+    position: fixed;
+    font-size: 3vw;
+    top: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 #avg{
     color: azure;
-    position: absolute;
-    font-size: 50px;
-    top: 5%;
+    position: fixed;
+    font-size: 3vw;
+    top: 1%;
     left: 10%;
     transform: translate(0%, -50%);
 }
 #bst{
     color: azure;
-    position: absolute;
-    font-size: 50px;
-    top: 5%;
+    position: fixed;
+    font-size: 3vw;
+    top: 1%;
     left: 80%;
     transform: translate(-50%, -50%);
 }
