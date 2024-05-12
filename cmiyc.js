@@ -10,6 +10,7 @@ document.getElementById("bt").onclick=function(){
 
 let ad=document.getElementById("gs");
 ad.volume=0.5;
+let ggs=document.getElementById("gg");
 
 let a=50, b=50, x=30, scr=0, t1=0, t2=0, avg=0, bst=Infinity;
 
@@ -30,6 +31,8 @@ document.getElementById("box").addEventListener("click", function(){
     }
 
     if(scr%10==0){
+        ggs.currentTime=0;
+        ggs.play();
         avg/=8;
         if(avg<bst)
             bst=avg;
